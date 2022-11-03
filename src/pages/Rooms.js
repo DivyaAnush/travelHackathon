@@ -27,7 +27,7 @@ const Rooms = () => {
 
       {/* footer started */}
 
-      <div className="topBanner">
+      <div className="topBanne">
         <div>
           <img className="logo" src={logo} alt="logo"></img>
         </div>

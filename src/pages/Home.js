@@ -3,6 +3,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import bg from "../images/background.jpg";
 import logo from "../images/airbnb.jpg";
+import newbg from "../images/bg1.jpg"
 import {
   ConnectButton,
   Icon,
@@ -26,7 +27,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container" style={{ backgroundImage: `url(${bg})` }}>
+      <div className="container">
         <div className="containerGradinet"></div>
       </div>
 
@@ -39,7 +40,7 @@ const Home = () => {
       {/* footer started */}
 
       <div className="topBanner">
-        <div>
+        <div className="banner">
           <img className="logo" src={logo} alt="logo"></img>
           <div>
             <em>

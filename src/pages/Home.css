@@ -5,6 +5,10 @@
   width: 100vw;
   background-size: cover;
   z-index: -999;
+  background-image: url(../images/bg1.jpg);
+  background-size:auto;
+
+  
 }
 
 .containerGradinet {
@@ -31,7 +35,9 @@
 
 .logo{
   width:10vw;
-  height:calc(10vw*0.3)
+  height:calc(10vw*0.3);
+  margin-left: 20px;
+  
 }
 
 .tabContent {
@@ -168,4 +174,8 @@
 
 .card-desp{
   text-align: center;
+}
+
+.banner{
+  line-height: 10px;
 }

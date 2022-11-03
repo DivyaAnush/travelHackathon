@@ -88,7 +88,7 @@
 }
 
 .rentalDesc {
-  color: gray;
+
 }
 
 .bottomButton {
@@ -175,8 +175,10 @@
     align-items: center;
 }
 
-.topBanner{
-  margin-top: 50px;
+.topBanne{
+  display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .button{

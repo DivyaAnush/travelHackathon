@@ -126,15 +126,15 @@ const Rentals = () => {
   return (
     <>
 
-      <div className="container" style={{ backgroundImage: `url(${bg})` }}>
+      <div className="container">
         <div className="containerGradinet"></div>
       </div>
 
       <div className="topBanner">
-        <div>
+        <div className="logoclass" >
           <Link to="/">
             <img className="logo" src={logo} alt="logo"></img>
-            <div><em><h2>Decentra Inn</h2></em></div>
+            <h2 className="logotext">Decentra Inn</h2>
           </Link>
         </div>
         <div>
