@@ -26,7 +26,7 @@
   justify-content: space-between;
   align-items: center;
   width:93%;
-  padding: 30px 60px;
+  padding: 0px 60px;
 }
 
 .logo{
@@ -101,12 +101,14 @@
   color: rgb(17, 17, 17);
   width: 300px;
   padding-left:50px;
+  display: flex;
+  gap: 50px;
 }
 
 .title {
   font-weight: bold;
   font-size: 30px;
-  margin-bottom: 15px;
+  width: 100px;
 }
 
 .text {
@@ -131,5 +133,39 @@
   transform: translate(-50%, -50%);
 }
 
+.texted{
+  font-size: small;
+}
 
+.main-container{
+  line-height: 10px;
+  text-align: center;
+}
 
+.card-conatiner{
+  max-width: 1200px;
+  margin: 50px auto 0px auto;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-primary{
+  max-width: 400px;
+}
+
+.card-img{
+  width: 60%;
+  margin-left: 76px;
+  
+}
+
+.card-title{
+  text-align: center;
+  font-weight: 700;
+}
+
+.card-desp{
+  text-align: center;
+}
