@@ -9,6 +9,7 @@
     padding-left:30px;
     padding-right:5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .filter {
@@ -78,15 +79,17 @@
 .rentalInfo {
     padding:10px;
     width: 100%;
+    color: black !important;
 }
 
 .rentalTitle {
     font-size: 23px;
     margin-bottom: 15px;;
+    color: black !important;
 }
 
 .rentalDesc {
-    color: gray;
+    color: black;
 }
 
 .bottomButton {
@@ -101,6 +104,42 @@
     display:flex;
     justify-content: end;
     gap:5px;
-    color:#808080;
+    color:#090909;
     font-size: 12px;
+}
+
+.container{
+    background-image: url(../images/bg1.jpg);
+  background-size:auto;
+}
+
+
+.logoclass{
+    line-height: 10px;
+    margin-top: 20px;
+}
+
+.logotext{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.logotext{
+    text-decoration: none !important;
+}
+.logoclass{
+    text-decoration: none !important;
+}
+.topBanner{
+    text-decoration: none !important;
+}
+
+.scrolltext{
+    max-width: 850px;
+    margin-right: 140px;
+}
+
+.searchReminder{
+    margin: 0 auto;
 }

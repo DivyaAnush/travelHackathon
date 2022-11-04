@@ -126,22 +126,30 @@ const Rentals = () => {
   return (
     <>
 
-      <div className="container" style={{ backgroundImage: `url(${bg})` }}>
+      <div className="container">
         <div className="containerGradinet"></div>
       </div>
 
       <div className="topBanner">
-        <div>
+        <div className="logoclass" >
           <Link to="/">
             <img className="logo" src={logo} alt="logo"></img>
-            <div><em><h2>Decentra Inn</h2></em></div>
+            <h2 className="logotext">Decentra Inn</h2>
           </Link>
         </div>
-        <div>
+        <div className="scrolltext">
         <marquee behavior="scroll" direction="Left"><h1>World's first 100% Web3 Enabled Hotel Reservation System!</h1></marquee>
       </div>
 
-        <div className="searchReminder">
+        <div className="lrContainers">
+          {account &&
+          <User account={account} />
+        }
+          <ConnectButton />
+        </div>
+      </div>
+      
+      <div className="searchReminder">
           <div className="filter">{searchFilters.destination}</div>
           <div className="vl"/>
           <div className="filter">
@@ -167,13 +175,6 @@ const Rentals = () => {
             <Icon fill="#ffffff" size={20} svg="search" />
           </div>
         </div>
-        <div className="lrContainers">
-          {account &&
-          <User account={account} />
-        }
-          <ConnectButton />
-        </div>
-      </div>
 
       <hr className="line" />
       <div className="rentalsContent">
@@ -210,8 +211,8 @@ const Rentals = () => {
                         }
                         text="Book now" />
                         <div className="price">
-                          <Icon fill="#808080" size={10} svg="matic" />{" "}
-                          {e.attributes.pricePerDay} / Day
+                          <Icon fill="#090909" size={10} svg="matic" />{" "}
+                          {e.attributes.pricePerDay} / Day 
                         </div>
                       </div>
                     </div>

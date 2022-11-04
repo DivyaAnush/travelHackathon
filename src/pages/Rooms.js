@@ -1,5 +1,6 @@
 import React from "react";
 import "./Rooms.css";
+import { useNavigate } from "react-router-dom";
 import bg from "../images/background.jpg";
 import logo from "../images/airbnb.jpg";
 import img1 from "../images/img1.webp";
@@ -17,6 +18,7 @@ import {
 } from "web3uikit";
 
 const Rooms = () => {
+  const navigate = useNavigate();
   return (
     <>
       {/* <div className="container" style={{ backgroundImage: `url(${bg})` }}>
@@ -25,26 +27,12 @@ const Rooms = () => {
 
       {/* footer started */}
 
-      <div className="topBanner">
+      <div className="topBanne">
         <div>
           <img className="logo" src={logo} alt="logo"></img>
         </div>
-        <div className="tabs">
-          {/* <div className="selected">
-            <em>Hotels</em>
-          </div> */}
-          {/* <div>
-            <em>Home Stayes</em>
-          </div> */}
-          {/* <div>
-            <em>Flights</em>
-          </div> */}
-          {/* <div>
-            <em>Holiday packages</em>
-          </div> */}
-          {/* <div>
-            <em>Things To do</em>
-          </div> */}
+        <div>
+          <Button text="Home" onClick={() => navigate("/")}  size="large" />
         </div>
       </div>
       <hr className="line" />
@@ -141,6 +129,7 @@ const Rooms = () => {
           </TabList>
         </div>
       </div>
+      <div></div>
     </>
   );
 };
