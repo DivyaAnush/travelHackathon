@@ -133,6 +133,7 @@
 }
 .topBanner{
     text-decoration: none !important;
+<<<<<<< HEAD
 }
 
 .scrolltext{
@@ -142,4 +143,6 @@
 
 .searchReminder{
     margin: 0 auto;
+=======
+>>>>>>> 4f46bf9b70b702c4ce81a0ed98b1476b587adc42
 }

@@ -32,7 +32,11 @@ const Rooms = () => {
           <img className="logo" src={logo} alt="logo"></img>
         </div>
         <div>
+<<<<<<< HEAD
           <Button text="Home" onClick={() => navigate("/")}  size="large" />
+=======
+          <Button text="Back" onClick={() => navigate("/")}  size="large" />
+>>>>>>> 4f46bf9b70b702c4ce81a0ed98b1476b587adc42
         </div>
       </div>
       <hr className="line" />
